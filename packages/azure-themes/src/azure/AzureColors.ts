@@ -118,6 +118,7 @@ export namespace BaseColors {
   export const GRAY_F3F2F1 = '#F3F2F1';
   export const GRAY_FAF9F8 = '#FAF9F8';
   export const GRAY_6B849C = '#6B849C';
+  export const GRAY_72716E = '#72716E';
   export const BLACK = '#000000';
   export const WHITE = '#ffffff';
   export const TRANSPARENT = 'transparent';
@@ -344,13 +345,13 @@ export const DarkSemanticColors: IAzureSemanticColors = {
   tagButton: {
     rest: {
       text: BaseColors.WHITE,
-      background: BaseColors.BLUE_55B3FF_040,
+      background: BaseColors.GRAY_323130,
       border: BaseColors.TRANSPARENT,
     },
     hover: {
       text: BaseColors.WHITE,
-      background: BaseColors.BLUE_55B3FF_040,
-      border: BaseColors.GRAY_808080_070,
+      background: BaseColors.GRAY_484644,
+      border: BaseColors.TRANSPARENT,
     },
     pressed: {
       text: BaseColors.WHITE,
